@@ -35,7 +35,7 @@ body:
         - DISCOVR
         
     validations:
-      required: true
+      required: false
 
   - type: dropdown
     id: priority
