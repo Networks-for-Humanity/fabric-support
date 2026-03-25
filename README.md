@@ -1,6 +1,6 @@
-# fabric-# fabric-support
+# fabric-support
 
-A unified support channel for network participants across all **Beckn Fabric** products. If you're running into an issue, have a question, or need help getting something to work — you're in the right place.
+A unified support channel for network participants across all **NFH Fabric** products. If you're running into an issue, have a question, or need help getting something to work — you're in the right place.
 
 ---
 
