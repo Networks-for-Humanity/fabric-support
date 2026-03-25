@@ -25,6 +25,19 @@ body:
       required: true
 
   - type: dropdown
+    id: product_name
+    attributes:
+      label: Product Name
+      options:
+        - ONIX
+        - DeDi
+        - CATALG
+        - DISCOVR
+        - DeDi
+    validations:
+      required: true
+
+  - type: dropdown
     id: priority
     attributes:
       label: Priority
