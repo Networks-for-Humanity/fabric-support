@@ -19,9 +19,8 @@ body:
     attributes:
       label: Network Name
       options:
-        - Network A
-        - Network B
-        - Network C
+        - Indonesia Open Network (ION)
+        - NBSL
     validations:
       required: true
 
