@@ -5,13 +5,6 @@ labels: []
 assignees: []
 
 body:
-  - type: input
-    id: title
-    attributes:
-      label: Title
-      placeholder: Brief summary of the issue
-    validations:
-      required: true
 
   - type: textarea
     id: description
