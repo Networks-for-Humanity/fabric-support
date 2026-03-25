@@ -1,0 +1,6 @@
+# .github/config.yml
+blank_issues_enabled: false
+contact_links:
+  - name: Community Support
+    url: https://your-forum.com
+    about: Ask questions here instead
