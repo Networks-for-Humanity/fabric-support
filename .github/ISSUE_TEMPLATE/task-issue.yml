@@ -1,0 +1,70 @@
+name: Task / Issue
+description: Submit a new issue for the network
+title: "[ISSUE] "
+labels: []
+assignees: []
+
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Title
+      placeholder: Brief summary of the issue
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      placeholder: Detailed description of the issue
+    validations:
+      required: true
+
+  - type: dropdown
+    id: network_name
+    attributes:
+      label: Network Name
+      options:
+        - Network A
+        - Network B
+        - Network C
+    validations:
+      required: true
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      options:
+        - 🔴 Critical
+        - 🟠 High
+        - 🟡 Medium
+        - 🟢 Low
+    validations:
+      required: true
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      options:
+        - Bug
+        - Feature Request
+        - Question
+        - Documentation
+    validations:
+      required: true
+
+  - type: dropdown
+    id: status
+    attributes:
+      label: "Status (set by assignee only)"
+      description: "⚠️ Please leave this as 'Open' when submitting. Only the assignee should update this."
+      options:
+        - Open
+        - In Progress
+        - Blocked
+        - Resolved
+    validations:
+      required: true
