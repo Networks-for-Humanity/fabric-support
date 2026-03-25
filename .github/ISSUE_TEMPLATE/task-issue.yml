@@ -33,7 +33,7 @@ body:
         - DeDi
         - CATALG
         - DISCOVR
-        - DeDi
+        
     validations:
       required: true
 
