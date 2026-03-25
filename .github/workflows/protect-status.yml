@@ -1,0 +1,25 @@
+# .github/workflows/protect-status.yml
+name: Protect Status Field
+on:
+  issues:
+    types: [edited]
+
+jobs:
+  check-status-edit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            const issue = context.payload.issue;
+            const editor = context.payload.sender.login;
+            const assignees = issue.assignees.map(a => a.login);
+            
+            if (!assignees.includes(editor)) {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                body: `⚠️ @${editor} — only the assigned team member can update the **Status** field.`
+              });
+            }
