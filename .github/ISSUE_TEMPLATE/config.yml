@@ -1,1 +1,11 @@
 blank_issues_enabled: false
+contact_links:
+  - name: 📖 Read the Support Guide first
+    url: https://github.com/Networks-for-Humanity/fabric-support#readme
+    about: New here? The guide explains what to expect and how to write a good issue.
+  - name: 💬 Not sure if this is an issue? Start a Discussion
+    url: https://github.com/Networks-for-Humanity/fabric-support/discussions
+    about: Ask a question or check with the community before raising a formal issue.
+  - name: 🔒 Need to share sensitive information?
+    url: https://www.networksforhumanity.org
+    about: Contact the NFH Fabric team privately — do not include sensitive data in issues.
