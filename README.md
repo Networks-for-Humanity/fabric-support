@@ -1,9 +1,34 @@
-# fabric-support
-A unified support channel for network participants across all **NFH Fabric** products. If you're running into an issue, have a question, or need help getting something to work — you're in the right place.
+# NFH Fabric Support
+
+The official support channel for network participants, partners, and developers 
+working with NFH Fabric products — Registry, ONIX, CATALG, and DISCOVRY.
+
+If you have encountered an issue, have a question, or need help getting 
+something to work, you are in the right place.
+
+---
+
+## Raise a Support Issue
+
+**[→ Click here to raise a support issue](https://github.com/Networks-for-Humanity/fabric-support/issues/new?template=task-issue.yml)**
+
+You will need a GitHub account to submit an issue. If you do not have one, 
+it is free and takes under a minute to create at [github.com](https://github.com/signup). 
+Once signed in, the form will guide you through all required fields.
+
+> **Before submitting**, please check whether your issue has already been 
+> reported in the [open issues list](https://github.com/Networks-for-Humanity/fabric-support/issues) 
+> or [resolved issues](https://github.com/Networks-for-Humanity/fabric-support/issues?q=is%3Aissue+is%3Aclosed).
+
+---
 
 > [!CAUTION]
 > **Do not share sensitive information in this repository.**
-> This is a public repository. Never include passwords, private keys, API tokens, wallet addresses, personal identification details, or any other confidential information in your issues or comments. If your issue requires sharing sensitive data, contact the NFH Fabric team directly through a private channel.
+> This is a public repository. Never include passwords, private keys, API 
+> tokens, wallet addresses, personal identification details, or any other 
+> confidential information in your issues or comments. If your issue requires 
+> sharing sensitive data, contact the NFH Fabric team directly through a 
+> private channel.
 
 ---
 
