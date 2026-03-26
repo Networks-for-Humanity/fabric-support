@@ -1,0 +1,30 @@
+# .github/workflows/issue-alert.yml
+name: New Issue Alert
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send Slack notification
+        uses: slackapi/slack-github-action@v1
+        with:
+          payload: |
+            {
+              "text": "🚨 New issue opened: *<${{ github.event.issue.html_url }}|${{ github.event.issue.title }}>*",
+              "blocks": [
+                {
+                  "type": "section",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": "*New issue in ${{ github.repository }}*\n*<${{ github.event.issue.html_url }}|${{ github.event.issue.title }}>*\nOpened by: ${{ github.event.issue.user.login }}"
+                  }
+                }
+              ]
+            }
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          SLACK_WEBHOOK_TYPE: INCOMING_WEBHOOK
