@@ -11,16 +11,20 @@ A unified support channel for network participants across all **NFH Fabric** pro
 
 Getting support is straightforward: **open an issue** in this repository.
 
-When creating your issue, you'll be asked to fill in:
+1. Go to the [**Issues**](../../issues) tab
+2. Click **New Issue**
+3. Click **Get started** on the *Task / Issue* template
+4. Fill in all required fields:
+   - **Title** — brief summary of your issue
+   - **Description** — full details of what you encountered
+   - **Network Name** — select your network from the dropdown
+   - **Priority** — select the appropriate urgency level
+   - **Type** — select Bug, Feature Request, Question, or Documentation
+   - **Status** — leave as *Open*
+5. Attach any supporting files if helpful — screenshots, logs, or recordings — by dragging and dropping or pasting directly into the description field
+6. Submit — you're done
 
-1. **Title** — a brief summary of your issue
-2. **Description** — what happened and what you were trying to do
-3. **Network Name** — the network you are a participant in
-4. **Priority** — how urgently this needs to be addressed
-5. **Type** — whether this is a Bug, Feature Request, Question, or Documentation issue
-6. **Status** — leave this as *Open* when submitting; the assigned team member will update it
-
-You can also **attach files** — screenshots, logs, or recordings — directly in the issue form. Drag and drop or paste them into the description field.
+The more context you provide upfront, the faster we can help.
 
 > **Don't have a GitHub account?** You'll need one to open an issue. It's free and takes under a minute to set up at [github.com](https://github.com).
 
@@ -34,26 +38,6 @@ You can also **attach files** — screenshots, logs, or recordings — directly 
 | **ONIX** | Open network interchange and transaction infrastructure |
 | **CATALG** | Catalogue and product/service listing management |
 | **DISCOVRY** | Discovery layer for finding providers and services on the network |
-
----
-
-## Opening an Issue
-
-1. Go to the [**Issues**](../../issues) tab
-2. Click **New Issue**
-3. Click **Get started** on the *Task / Issue* template
-4. Fill in all required fields:
-   - **Title** — brief summary of your issue
-   - **Description** — full details of what you encountered
-   - **Network Name** — select your network from the dropdown
-   - **Product** - select your fabric product 
-   - **Priority** — select the appropriate urgency level
-   - **Type** — select Bug, Feature Request, Question, or Documentation
-   - **Status** — leave as *Open*
-5. Attach any supporting files if helpful (screenshots, logs, recordings)
-6. Submit — you're done
-
-The more context you provide upfront, the faster we can help.
 
 ---
 
