@@ -25,7 +25,7 @@ Once signed in, the form will guide you through all required fields.
 > Start a [Discussion](https://github.com/Networks-for-Humanity/fabric-support/discussions) 
 > instead. Ask your question or describe what you are experiencing and the 
 > team or community will help you determine the right next step.
-> 
+---
 > [!CAUTION]
 > **Do not share sensitive information in this repository.**
 > This is a public repository. Never include passwords, private keys, API 
