@@ -1,4 +1,4 @@
-# Fabric Component Support
+# Fabric Components Support
 
 The official support channel for network participants, partners, and developers 
 working with NFH Fabric modules — Registry, ONIX, CATALG, and VC on edge.
