@@ -15,19 +15,20 @@ body:
       required: true
 
   - type: dropdown
-    id: network_name
+    id: project_name
     attributes:
-      label: Network Name
+      label: Project
       options:
         - Indonesia Open Network (ION)
         - NBSL
+        - Other
     validations:
       required: true
 
   - type: dropdown
-    id: product_name
+    id: module_name
     attributes:
-      label: Product
+      label: Fabric Module
       options:
         - ONIX
         - DeDi
