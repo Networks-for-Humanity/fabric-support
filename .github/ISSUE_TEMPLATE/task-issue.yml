@@ -31,9 +31,9 @@ body:
       label: Fabric Module
       options:
         - ONIX
-        - DeDi
+        - REGISTR
         - CATALG
-        - DISCOVR
+        - VC on Edge
         
     validations:
       required: false
