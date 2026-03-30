@@ -1,4 +1,4 @@
-# NFH Fabric Support
+# Fabric Component Support
 
 The official support channel for network participants, partners, and developers 
 working with NFH Fabric products — Registry, ONIX, CATALG, and DISCOVRY.
