@@ -1,7 +1,7 @@
 # Fabric Component Support
 
 The official support channel for network participants, partners, and developers 
-working with NFH Fabric products — Registry, ONIX, CATALG, and DISCOVRY.
+working with NFH Fabric modules — Registry, ONIX, CATALG, and VC on edge.
 
 If you have encountered an issue, have a question, or need help getting 
 something to work, you are in the right place.
@@ -46,7 +46,7 @@ Getting support is straightforward: **open an issue** in this repository.
 4. Fill in all required fields:
    - **Title** — brief summary of your issue
    - **Description** — full details of what you encountered
-   - **Network Name** — select your network from the dropdown
+   - **Project** — select your project from the dropdown
    - **Priority** — select the appropriate urgency level
    - **Type** — select Bug, Feature Request, Question, or Documentation
    - **Status** — leave as *Open*
@@ -59,14 +59,13 @@ The more context you provide upfront, the faster we can help.
 
 ---
 
-## Supported Products
+## Supported Fabric Modules
 
-| Product | Description |
+| Module | Description |
 |---|---|
 | **Registry** | Trust registry and participant identity management |
 | **ONIX** | Open network interchange and transaction infrastructure |
 | **CATALG** | Catalogue and product/service listing management |
-| **DISCOVRY** | Discovery layer for finding providers and services on the network |
 
 ---
 
