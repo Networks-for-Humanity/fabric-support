@@ -8,9 +8,9 @@
 
 ## 1. Overview
 
-This document describes the support process and service level commitments for **NFH fabric** — the universal open network infrastructure suite comprising the Registry, ONIX, and CATALG components.
+This document describes the support process and service level commitments for **NFH fabric** — the universal infrastructure suite comprising the Registry, ONIX, and CATALG components.
 
-All support for NFH fabric is managed through GitHub. This is the single official channel for bug reports, issues, general queries, and enhancement requests. NFH does not manage separate Slack channels for general adoption support.
+All support for NFH fabric is managed through GitHub. This is the single official channel for bug reports, issues, general queries, and enhancement requests. NFH does not manage any other channels for general adoption support.
 
 ---
 
@@ -21,17 +21,17 @@ All support for NFH fabric is managed through GitHub. This is the single officia
 Support under this SLA applies to the following NFH fabric components as deployed and operated in their standard, unmodified form:
 
 - **Registry** — network participant registry and trust infrastructure
-- **ONIX** — open network interchange (core engine and out-of-the-box plugins)
-- **CATALG** — catalogue and discovery infrastructure
+- **ONIX** — open network interchange adaptor (core engine and out-of-the-box plugins)
+- **CATALG** — catalogue infrastructure
 
 ### 2.2 What Is Not Covered
 
 The following are outside the scope of SLA-backed support:
 
 - **Modified open source components**: If an adopter modifies NFH fabric's open source components (including core ONIX or its out-of-the-box plugins), SLA commitments no longer apply to those modified components. NFH may still engage with such issues in the spirit of open source community support, but without SLA timelines or accountability.
-- **DISCOVR**: DISCOVR is an accelerator product, not part of NFH fabric. It runs on the adopter's own cloud instance. Support for DISCOVR is provided on a best-effort community basis.
+- **DISCOVR**: DISCOVR is an accelerator product, not part of NFH fabric. It runs on the adopter's own cloud instance. Support for DISCOVR is governed by the terms of the applicable usage agreement.
 - **Custom integrations or third-party systems** built on top of NFH fabric.
-- **General Beckn protocol questions** — these should be directed to the Beckn community via [docs.beckn.io](https://docs.beckn.io) or the protocol spec repository.
+- **General Beckn protocol questions** — these should be directed to the Beckn community via the protocol spec repository [Beckn Protocol Version 2.0 - Long Term Support (LTS)](https://github.com/beckn/protocol-specifications-v2).
 
 ---
 
@@ -55,7 +55,7 @@ The following are outside the scope of SLA-backed support:
 | **S3** | Within 1 business day | Within a few business days, depending on complexity |
 | **S4** | Within 1 business day | Scheduled as part of regular maintenance or upcoming release |
 
-> **Note:** "Immediate response" means acknowledgement and active engagement by a named NFH team member — not just an automated acknowledgement. Resolution timelines assume the adopter provides necessary information promptly and the issue is reproducible in a standard environment.
+> **Note:** "Immediate response" means acknowledgement and active engagement by NFH fabric support — not just an automated acknowledgement. Resolution timelines assume the adopter provides necessary information promptly and the issue is reproducible in a standard environment.
 
 ---
 
@@ -63,7 +63,7 @@ The following are outside the scope of SLA-backed support:
 
 ### 5.1 Raising an Issue
 
-All issues must be filed on the [fabric-support GitHub repository](https://github.com/Networks-for-Humanity/fabric-support/issues) using the appropriate issue template:
+All issues must be filed on the [fabric-support GitHub repository](https://github.com/Networks-for-Humanity/fabric-support/issues):
 
 - **Bug / Issue** — for defects across any severity level
 - **General Query / Discussion** — for questions, clarifications, or help needed
@@ -73,7 +73,7 @@ When filing a bug, please include the severity label (S1–S4) that you believe 
 
 ### 5.2 Issue Triage & Ownership
 
-- All incoming issues are reviewed and triaged by the NFH engineering team.
+- All incoming issues are reviewed and triaged by the NFH fabric support team.
 - A named team member will be assigned as the owner for each active issue.
 - Severity labels may be adjusted during triage based on NFH's assessment. If you disagree with a severity classification, note it in the issue comments.
 
@@ -87,8 +87,7 @@ Enhancement requests will receive an initial response within 1 business day. Acc
 
 ### 5.5 Metrics & Transparency
 
-NFH publishes a daily automated summary of open issues (by severity and age) to our internal engineering channel. Over time, we will look to make relevant metrics available to adopters as well.
-
+The NFH fabric team will publish relevant support metrics — such as open issues by severity and age — on a best-effort basis.
 ---
 
 ## 6. SLA Conditions & Limitations
