@@ -88,6 +88,7 @@ Enhancement requests will receive an initial response within 1 business day. Acc
 ### 5.5 Metrics & Transparency
 
 The NFH fabric team will publish relevant support metrics — such as open issues by severity and age — on a best-effort basis.
+
 ---
 
 ## 6. SLA Conditions & Limitations
