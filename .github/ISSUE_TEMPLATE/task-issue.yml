@@ -3,9 +3,7 @@ description: Report an issue, ask a question, or request a feature
 title: "[ISSUE] "
 labels: []
 assignees: []
-
 body:
-
   - type: textarea
     id: description
     attributes:
@@ -13,7 +11,6 @@ body:
       placeholder: Detailed description of the issue
     validations:
       required: true
-
   - type: dropdown
     id: project_name
     attributes:
@@ -24,7 +21,6 @@ body:
         - Other
     validations:
       required: true
-
   - type: dropdown
     id: module_name
     attributes:
@@ -34,22 +30,33 @@ body:
         - REGISTR
         - CATALG
         - VC on Edge
-        
     validations:
       required: false
-
   - type: dropdown
     id: priority
     attributes:
       label: Priority
+      description: Select the severity level that best describes the impact on your network operations.
       options:
-        - 🔴 Critical
-        - 🟠 High
-        - 🟡 Medium
-        - 🟢 Low
+        - 🔴 S1-Critical
+        - 🟠 S2-High
+        - 🟡 S3-Medium
+        - 🟢 S4-Low
     validations:
       required: true
+  - type: markdown
+    attributes:
+      value: |
+        **Priority level definitions — please select the level that most accurately reflects your situation:**
 
+        | Level | Description |
+        |---|---|
+        | 🔴 **S1 — Critical** | Your network operations are completely halted with no workaround available. This is a production-blocking issue requiring immediate attention. |
+        | 🟠 **S2 — High** | Your operations are significantly impacted. A partial workaround exists but is not sustainable beyond a day or two. |
+        | 🟡 **S3 — Medium** | You are experiencing intermittent issues that do not block operations. A workaround is in place and can be sustained for a few days. |
+        | 🟢 **S4 — Low** | Your operations are unaffected for now. This is a non-urgent improvement or minor issue you would like addressed in due course. |
+
+        > If you are unsure, err on the side of the lower severity. The team will review and adjust if needed.
   - type: dropdown
     id: type
     attributes:
@@ -61,7 +68,6 @@ body:
         - Documentation
     validations:
       required: true
-
   - type: dropdown
     id: status
     attributes:
