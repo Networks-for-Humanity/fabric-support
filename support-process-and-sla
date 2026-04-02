@@ -1,0 +1,118 @@
+# NFH fabric — Support Process & Service Level Agreement
+
+**Version:** 0.1 (Draft for Review)
+**Maintained by:** Networks for Humanity (NFH)
+**Support Channel:** [fabric-support on GitHub](https://github.com/Networks-for-Humanity/fabric-support)
+
+---
+
+## 1. Overview
+
+This document describes the support process and service level commitments for **NFH fabric** — the universal open network infrastructure suite comprising the Registry, ONIX, and CATALG components.
+
+All support for NFH fabric is managed through GitHub. This is the single official channel for bug reports, issues, general queries, and enhancement requests. NFH does not manage separate Slack channels for general adoption support.
+
+---
+
+## 2. Scope of Support
+
+### 2.1 What Is Covered
+
+Support under this SLA applies to the following NFH fabric components as deployed and operated in their standard, unmodified form:
+
+- **Registry** — network participant registry and trust infrastructure
+- **ONIX** — open network interchange (core engine and out-of-the-box plugins)
+- **CATALG** — catalogue and discovery infrastructure
+
+### 2.2 What Is Not Covered
+
+The following are outside the scope of SLA-backed support:
+
+- **Modified open source components**: If an adopter modifies NFH fabric's open source components (including core ONIX or its out-of-the-box plugins), SLA commitments no longer apply to those modified components. NFH may still engage with such issues in the spirit of open source community support, but without SLA timelines or accountability.
+- **DISCOVR**: DISCOVR is an accelerator product, not part of NFH fabric. It runs on the adopter's own cloud instance. Support for DISCOVR is provided on a best-effort community basis.
+- **Custom integrations or third-party systems** built on top of NFH fabric.
+- **General Beckn protocol questions** — these should be directed to the Beckn community via [docs.beckn.io](https://docs.beckn.io) or the protocol spec repository.
+
+---
+
+## 3. Severity Levels
+
+| Severity | Label | Description |
+|----------|-------|-------------|
+| **S1** | Critical | Production showstopper. No workaround exists. Adopters are completely stalled and unable to operate. Requires immediate escalation. |
+| **S2** | High | Adopters are partially stalled. Some workaround may exist, but it is not sustainable beyond a day or two. |
+| **S3** | Medium | Adopters face issues intermittently and are not fully stalled. A workable workaround exists; issue can be managed for a few days without a fix. |
+| **S4** | Low | Adopters can continue operating without a fix, but a resolution is desired. |
+
+---
+
+## 4. Response & Resolution SLAs
+
+| Severity | Initial Response | Target Resolution |
+|----------|-----------------|------------------|
+| **S1** | Immediate (within 2 hours) | Within 4–6 hours |
+| **S2** | Immediate (within 4 hours) | Within 1–2 business days |
+| **S3** | Within 1 business day | Within a few business days, depending on complexity |
+| **S4** | Within 1 business day | Scheduled as part of regular maintenance or upcoming release |
+
+> **Note:** "Immediate response" means acknowledgement and active engagement by a named NFH team member — not just an automated acknowledgement. Resolution timelines assume the adopter provides necessary information promptly and the issue is reproducible in a standard environment.
+
+---
+
+## 5. Support Process
+
+### 5.1 Raising an Issue
+
+All issues must be filed on the [fabric-support GitHub repository](https://github.com/Networks-for-Humanity/fabric-support/issues) using the appropriate issue template:
+
+- **Bug / Issue** — for defects across any severity level
+- **General Query / Discussion** — for questions, clarifications, or help needed
+- **Enhancement Request** — for feature suggestions or improvement ideas
+
+When filing a bug, please include the severity label (S1–S4) that you believe applies, along with a clear description of impact and any available workaround.
+
+### 5.2 Issue Triage & Ownership
+
+- All incoming issues are reviewed and triaged by the NFH engineering team.
+- A named team member will be assigned as the owner for each active issue.
+- Severity labels may be adjusted during triage based on NFH's assessment. If you disagree with a severity classification, note it in the issue comments.
+
+### 5.3 General Queries & Discussions
+
+General queries and discussions (non-bug) should be filed using GitHub Discussions or the General Query template. NFH will respond within 1 business day. Resolution timelines depend on the nature of the query.
+
+### 5.4 Enhancement Requests
+
+Enhancement requests will receive an initial response within 1 business day. Accepted enhancements are evaluated against the NFH fabric product roadmap. NFH reserves the right to decline enhancements that do not align with the roadmap, and will communicate this through the GitHub issue thread.
+
+### 5.5 Metrics & Transparency
+
+NFH publishes a daily automated summary of open issues (by severity and age) to our internal engineering channel. Over time, we will look to make relevant metrics available to adopters as well.
+
+---
+
+## 6. SLA Conditions & Limitations
+
+- SLAs apply only to **unmodified** deployments of NFH fabric components.
+- SLAs apply to issues raised through the **official GitHub support channel** only.
+- SLAs are provided as part of the NFH fabric flat annual subscription.
+- NFH's ability to meet resolution timelines depends on adopters providing timely, complete information.
+- Force majeure events (outages of underlying cloud infrastructure, critical third-party failures) may affect resolution timelines; NFH will communicate proactively in such cases.
+
+---
+
+## 7. Contact & Escalation
+
+For S1 issues where GitHub response alone is insufficient, adopters should comment in the GitHub issue requesting urgent escalation. NFH will establish a direct contact channel upon subscription onboarding for such scenarios.
+
+---
+
+## 8. About NFH fabric
+
+NFH fabric is the shared universal infrastructure for open Beckn-based networks. It provides the foundational rails — including participant registry, network interchange, and catalogue infrastructure — that enable open, interoperable value exchange across domains. All Beckn-based networks converging onto NFH fabric benefit from a common, production-grade runtime maintained by Networks for Humanity.
+
+For more on Beckn and NFH fabric, see [docs.beckn.io](https://docs.beckn.io).
+
+---
+
+*This document is version 0.1 and is open for review. Please share feedback via GitHub Discussions in the fabric-support repository.*
